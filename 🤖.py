@@ -40,7 +40,7 @@ def getResponse(conversation: str):
     return conversation
 
 # seed prompt
-conversation = "The following is a conversation with an AI assistant. The assistant is helpful, creative, clever, and very friendly.\n"
+conversation = "The following is a conversation with an AI assistant. The assistant is helpful, creative, clever, and very friendly.\nHuman: Hello, who are you?\nAI: I am an AI which stands for Artificial intelligence. How can I help you today?"
 while(True):
     conversation = promptHuman(conversation)
     conversation = getResponse(conversation)
