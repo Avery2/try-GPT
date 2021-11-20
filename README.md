@@ -1,6 +1,8 @@
 # Trying GTP-3
 
-Example conversation by running `python 🤖.py` featuring my roommate and GTP-3:
+## Example
+
+Conversation by running `python 🤖.py` featuring my roommate and GTP-3:
 
 ```
 Human: hi i like to eat apples.
@@ -38,3 +40,33 @@ AI: We need to know your needs so we can fulfill them as quickly as possible.
 Human: So you are my servant?
 AI: Service is my purpose
 ```
+
+## Instructions
+
+Better version by OpenAI here: https://beta.openai.com/playground/p/default-chat.
+
+To run locally do:
+- `pip install -r requirements.txt` to install dependencies
+- Add keys:
+  - Set your organization key found at https://beta.openai.com/account/org-settings in the `🤖.py` file
+  - Set your API key found at https://beta.openai.com/account/api-keys in a `.env` file (you might have to create this).
+- `python 🤖.py` to run.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
